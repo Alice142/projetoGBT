@@ -1,0 +1,10 @@
+.text-n-servicos{
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+}
+
+/*pacotes nacionais*/
+.images{
+    padding-top: 10em;
+}

@@ -1,0 +1,51 @@
+
+.dark body{
+    background-color: #132630;
+  }
+  
+  
+  .dark,
+  .dark header {
+    background-color: #0b1922;
+    color: #fff;
+  }
+  
+  .dark .navbar{
+    background-color: #0c4e68;
+  }
+  
+  .dark .dropdown-menu{
+    background-color: #051f29;
+   
+  }
+  .dark .dropdown-menu li a{
+    text-decoration: #fafafa;
+  }
+  
+  .dark .blog-card{
+    box-shadow: 0px 10px 50px rgba(3, 14, 163, 0.7);
+  }
+  
+  .dark .blog-card,
+  .dark .content{
+    background-color: #0c4e68;   
+  }
+  
+  .dark .content span,
+  .dark .content .title,
+  .dark .content .text {
+    color: #f5f5f5;
+    transition: none;
+  }
+
+  .dark .form label {
+    color: #fff;
+  }
+  
+  .dark .footer-wave{
+    background-image: url('/src/img/footer-shape-dark.png');
+  }
+
+  
+  
+  

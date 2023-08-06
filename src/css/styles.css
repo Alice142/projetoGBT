@@ -1,0 +1,411 @@
+
+.card-blog{
+    grid-area: card-blog ;
+}
+
+.imagemns{
+    grid-area: imagemns ;
+}
+
+.mobile{
+  grid-area: mobile;
+  display: none;
+}
+
+.escreverse{
+  grid-area: escreverse;
+}
+
+.formulario{
+  grid-area: formulario;
+}
+
+.footer{
+  grid-area: footer;
+}
+
+.geral{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 45em;
+    grid-template-areas: "card-blog" "imagemns" "escreverse" "formulario" "footer";
+}
+
+/* album*/
+
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.container .search-box{
+    position: relative;
+    height: 42px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.search-box input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #52a5a8;
+    padding: 0 15px 0 45px;
+    color: #f5eaea;
+    border-radius: 6px;
+    
+}
+
+input::placeholder  {
+  color: rgb(250, 246, 246);
+}
+.search-box i{
+    position: absolute;
+    z-index: 2;
+    color: #999;
+    top: 50%;
+    left: 15px;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+.container .images .image-box{
+    position: relative;
+    height: 20em;
+    width: 30em;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.images .image-box{
+    margin: 20px;
+    box-shadow: 0px 1em 2em rgba(28, 163, 226, 0.9);
+}
+.images .image-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.2s linear;
+}
+.image-box:hover img{
+    transform: scale(1.05);
+}
+.image-box p{
+    position: absolute;
+    bottom: 10px;
+    left: 1em;
+    color: #ffffff;
+    -webkit-text-stroke: 1.5px #292828;
+    text-shadow: 5px #3a3a3a;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/*escreverse*/
+
+.login_form_container{
+    position: relative;
+    width: 30em;
+    height: 30em;
+    max-width: 30em ;
+    max-height: 430em;
+    background: #170a04 ;
+    border-radius: 3em 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 3em;
+   
+    
+}
+.escreverse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://diariodocomercio.com.br/wp-content/uploads/2023/02/31543067_1667238956697044_3590594403212722176_n.jpg") no-repeat  center ;
+    background-size: 100%;
+}
+.login_form_container::before{
+    
+    position: absolute;
+    width: 170%;
+    height: 170%;
+    content: '';
+    background-image: conic-gradient(transparent, transparent, transparent, #00c3ff);
+    animation: rotate_border 6s linear infinite;
+
+}
+.login_form_container::after{
+    
+    position: absolute;
+    width: 170%;
+    height: 170%;
+    content: '';
+    background-image: conic-gradient(transparent, transparent, transparent, #00ccff);
+    animation: rotate_border 6s linear infinite;
+    animation-delay: -3s;
+}
+@keyframes rotate_border{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.login_form{
+    position: absolute;
+    content: '';
+    background-color: #1a8092;
+    border-radius: 50px 5px;
+    inset: 5px;
+    padding: 50px 40px;
+    z-index: 10;
+    color: #fcfcfc;
+
+} 
+.login_form h2{
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+.input_group{
+    margin-right: 0;
+    padding: 0;
+    
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
+.input_text{
+    width: 95%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #00ccff;
+
+}
+::placeholder{
+    font-size: 15px;
+    color: #06080852;
+    letter-spacing: 1px;
+
+}
+.fa{
+    font-size: 20px;
+
+}
+#login_button{
+    position: relative;
+    width: 10em;
+    height: 40px;
+    transition: 1s;
+    margin-top: 10px;
+
+
+}
+#login_button button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border: 1px solid #00ccff;
+    border-radius: 50px;
+    background-color: #1b220c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glowIcon {
+    text-shadow: 0 0 10px #00ccff;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*Formulario*/
+
+
+
+.formulario{
+    display: flex;
+ 
+
+}
+.form {
+    width: 100em;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    display: block;
+    padding: 2em 5em 2em 5em;
+    
+  }
+  .login_form .form{
+    width: 100em;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    display: block;
+    padding: 2em 10em 0em 0em;
+  }
+
+  .login_form .form label {
+    color: #e4e1e1;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .form label {
+    color: #0c0c0c;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: rgb(6, 7, 7);
+    box-shadow: 0 0 0 3px #4dc8ff;
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #0072c4;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #09d;
+  }
+  
+  .formulario-text{
+    width: 50%;
+    padding: 10em 5em 2em 5em ;
+  }
+
+
+  /* social*/
+
+
+.social{
+    
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#icons{
+width: 220px;
+height: auto;
+position: absolute;
+top: 30%;
+left: -150px;
+}
+#icons ul{
+list-style: none;
+}
+#icons ul li{
+display: block;
+background: #131313;
+padding: 10px;
+height: 50px;
+position: relative;
+transition: all 0.5s ease;
+}
+#icons ul li a{
+display: block;
+color: #fff;
+text-decoration: none;
+}
+#icons ul li:nth-child(1){
+background: #1cda45;
+}
+#icons ul li:nth-child(2){
+background: #1c1f1d;
+}
+#icons ul li:nth-child(3){
+background: #030379;
+}
+#icons ul li:nth-child(4){
+background: #11aeef;
+}
+#icons ul li:nth-child(5){
+background: #2626e7;
+}
+#icons ul li:nth-child(6){
+background: #ff00ff;
+}
+#icons ul li span{
+position: absolute;
+top: 0;
+bottom: 0;
+display: block;
+right: 18px;
+padding: 10px;
+}
+#icons ul li:hover{
+cursor: pointer;
+background: #131313;
+opacity: 0.8;
+border-left: 10px solid rgb(172, 165, 165);
+transform: translateX(7em);
+}
+
+

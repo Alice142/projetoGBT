@@ -1,0 +1,162 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner video {
+    position: absolute;
+    top: 5em;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+  .banner .titulo-quem-somos {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner .titulo-quem-somos h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #08c3e4;
+  }
+  
+  .quem-somos-text{
+    width: 100em;
+    max-width: 100%;
+    font-size: 1.3em;
+    padding-top: 5em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 5em;
+    display: flex;
+    align-items: center;
+  }
+  .img-topo-quem-somos{
+    padding-bottom: 2em;
+  }
+
+  .map{
+    padding-bottom: 3em;
+  }
+
+  /* corporativo*/
+  .text-corporativo{
+    display: flex;
+    
+  }
+  .text-corporativo p{
+    
+    padding-right: 6em;
+    padding-left: 1em;
+  }
+
+  .img-topo-quem-somos{
+    padding-top: 5em;
+  }
+
+  .quem-somos-text h3,
+  .quem-somos-text h4{
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+
+  .formulario-copoporativo{
+    position: relative
+  }
+
+  .formulario-copoporativo .formulario{
+    margin-left: 30%;
+  }
+  .formulario-copoporativo .formulario-text{
+    margin-left: 33%;
+  }
+  
+
+  /*** Produtos***/
+.produtos{
+  position: relative;
+  min-height: 100vh;
+  max-width: 100em;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20em 20px 0em 1em;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    
+}
+.produtos .imgs-produtos .link-img{
+  position: relative;
+  height: 20em;
+  width: 30em;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.imgs-produtos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction:column;
+  flex: 1 1 calc(33.3% - 40px);  
+}
+
+.imgs-produtos .link-img{
+  margin: 20px;
+  box-shadow: 0px 1em 2em rgba(28, 163, 226, 0.9);
+}
+
+.imgs-produtos .link-img img{
+  height: 100%; 
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.2s linear;
+}
+.link-img:hover img{
+  transform: scale(1.05);
+}
+
+.link-img p{
+  position: absolute;
+  bottom: 10px;
+  left: 1em;
+  color: #ffffff;
+  -webkit-text-stroke: 1.5px #292828;
+  text-shadow: 5px #3a3a3a;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.descrição-viagem{
+ display: flex;
+ align-items: center;
+ padding-left: 2em;
+}
+.descrição-viagem i{
+  padding-bottom: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  color: #5885e0;
+}
+
+
+.mapa-n-encontrado{
+  position: relative;
+  padding-top: 10em;
+  padding-left: 40%;
+
+}
+
+.mapa-n-encontrado-text p{
+  text-align: center;
+  font-size: 2em;
+}

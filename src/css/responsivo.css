@@ -1,0 +1,360 @@
+/*Menu*/
+@media only screen and (min-width: 992px){
+    .none{
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      display: flex;
+    }
+    .dropdown-menu.show {
+      display: flex;
+    }
+  }
+
+  
+@media only screen and (max-width: 992px) {
+    .dropdown-menu.show {
+      flex-wrap: wrap;
+      max-height: 350px;
+      overflow-y: scroll;
+    }
+    .img-topo{
+      display: none;
+    }
+
+    .navbar{
+      display: flex;
+      justify-content: center;
+    }
+
+    .input-dark{
+      position: absolute ;
+      top: 1em;
+      left: 1em;
+      margin-left: 50%;
+      padding: 1rem;
+    }
+
+    
+}
+
+@media only screen and (min-width: 460px) and (max-width: 992px){
+  .input-dark{
+    position: absolute ;
+    top: 1em;
+    left: 1em;
+    margin-left: 70%;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .dropdown:hover .dropdown-menu {
+      width: 40vw;
+      flex-wrap: wrap;
+    }
+}
+
+
+/*Carosel*/
+
+
+@media only screen and (max-width: 425px){
+  .geral{
+    grid-template-areas: "mobile" "imagemns" "escreverse" "formulario" "footer";
+  }
+
+  .card-blog{
+    display: none;
+  }
+
+  .mobile{
+    display: on;
+  }
+
+  
+  
+
+}
+
+/*midias sociais*/
+
+
+/*footer*/
+
+@media only screen and (max-width:600px){
+    .main{
+      width:320px;
+    }
+    .footer-wave-box {
+      display: none;
+    }
+    .single-footer:first-child, .single-footer {
+      width: 100%;
+      margin-bottom:30px;
+    }
+}
+
+
+
+
+
+
+  /*teste*/
+
+  @media only screen and (max-width: 320px){
+
+    .container .images .image-box{
+      height: 10em;
+      width: 30em;
+  }
+
+}
+
+  
+  @media only screen and (max-width:425px){
+
+    .container .images .image-box{
+      height: 15em;
+      width: 30em;
+  }
+  }
+
+
+  @media only screen and (min-width: 768px){
+    .mobile{
+      display: none;
+    }
+    .form {
+      width: 100%;
+      max-width: 45rem;
+      padding: 2em 5em 2em 10em;
+    }
+  
+    .formulario-text{
+      width: 100%;
+      padding: 10em 5em 2em 5em ;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .escreverse{
+        display: none;
+    }
+   #icons{
+    display: none;
+   }
+
+  
+  .blog-card{
+    position: absolute;
+    height: 38em;
+    width: 85%;
+    margin: 1em;
+  }
+
+  .content-1, 
+  .content{
+    width: 22em;
+  }
+
+
+  .formulario{
+    display: block;
+  }
+  .formulario-text{
+    width: 100%;
+    padding: 1em  ;
+  }
+
+  .form {
+    width: 100em;
+    max-width: 100%;
+    font-size: 1.125rem;
+    display: block;
+    padding: 2em;
+    
+  }
+
+
+
+
+.image-box p{
+  bottom: 10px;
+  font-size: 1.5em;
+  font-weight: 800;
+
+  }
+
+  .search-box input{
+    
+    padding: 0 12px 0 20px;
+    color: #f5eaea;
+    border-radius: 6px;
+    
+}
+
+  .footer {
+    margin: 0.5em;
+}
+
+.footer-wave{
+  margin-top: -22px;
+}
+
+  /* album*/
+
+
+/*formulario*/
+
+}
+
+@media only screen and (min-width: 1024px){
+  .form {
+    width: 50%;
+    max-width: 28rem;
+    font-size: 1.125rem;
+    display: block;
+    padding: 2em 5em 2em 5em;
+    
+  }
+
+  .blog-card{
+   
+    height: 40em;
+    width: 65%;
+  }
+
+  .content-1, 
+  .content{
+    padding: 0 40px 0 35px;
+    width: 25em;
+   
+  }
+
+  .login_form_container{
+    position: relative;
+    width: 20em;
+    height: 20em;
+  }
+
+  .login_form h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+  .login_form .form {
+   
+    max-width: 26rem;
+    padding: 2em 10em 0em 0em;
+}
+
+
+
+
+}
+@media only screen and (min-width: 0px) and (max-width: 1240px){
+  .img-topo{
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 1024px){
+  .formulario-text{
+    width: 40%;
+    padding: 2em 5em 2em 5em ;
+  }
+}
+
+
+
+
+
+  @media only screen and (min-width: 1024px) and (max-width: 2580px) {
+    .login_form_container{
+      width: 300em;
+      height: 27em;  
+  }
+  
+    .form {
+    max-width: 50rem;
+    
+  }
+    
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1024px){
+
+
+  .banner{
+    width: 100%;
+    height: 20%;
+  }
+
+  .produtos .imgs-produtos .link-img{
+    height: 10em;
+    width: 17.5em;
+    
+  }
+  
+
+  .produtos{
+    padding-top: 25em;  
+  }
+
+  .descrição-viagem {
+    padding-left: 0.5em;
+  }
+
+ 
+
+  .descrição-viagem p{
+    padding-left: -11em;
+  }
+ 
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1023px){
+  .banner video{
+    display: none;
+  }
+
+  .produtos{
+    padding-top: 0em;  
+  }
+
+  .banner .titulo-quem-somos h1{
+    font-size: 2em;
+  }
+
+  .quem-somos-text{
+    
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (min-width: 1028px) and (max-width: 1440px){
+  .produtos{
+    padding-top: 2em;  
+  }
+
+  
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1028px){
+  .respons .images{
+    padding-top: 30em;
+  }
+
+  .quem-somos-text{
+    
+    padding-top: 23em;
+  }
+}
